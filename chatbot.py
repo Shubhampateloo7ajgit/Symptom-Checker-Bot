@@ -13,7 +13,6 @@ def get_advice(symptoms):
         "difficulty breathing": "Difficulty breathing is an emergency. Call a doctor now!"
     }
 
-    # Emergency check
     for symptom in symptoms:
         if symptom in ["chest pain", "difficulty breathing"]:
             return advice_db[symptom]
