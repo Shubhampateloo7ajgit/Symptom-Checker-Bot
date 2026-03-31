@@ -14,16 +14,12 @@ This project is a symptom checker chatbot that takes user symptoms as input and 
 
 ## Technologies Used
 - Python
-- (Optional) Streamlit
 
 ## How to Run
 
 1. Clone repository
 2. Run:
    python chatbot.py
-
-OR (for UI):
-   streamlit run app.py
 
 ## Disclaimer
 This is not a medical diagnosis tool. Always consult a doctor.
